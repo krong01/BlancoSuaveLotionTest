@@ -1,0 +1,476 @@
+.landing-page {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .hproduct-gallery {
+    display: flex;
+    gap: 35px; 
+    flex-wrap: wrap; 
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    height: 300px;
+  }
+
+  .hproduct-container {
+    position: relative;
+    width: 280px; 
+    height: 280px;
+    overflow: hidden; 
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+
+
+  .hproduct-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 10px;
+    transition: filter 0.3s ease, transform 0.3s ease;
+  }
+
+  .hproduct-container:hover .hproduct-image {
+    filter: blur(5px); 
+    transform: scale(1.1); 
+  }
+
+  .hproduct-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    color: rgb(61, 61, 61); 
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    z-index: 2;
+    pointer-events: none; 
+  }
+
+
+  .video-section{
+    position: relative;
+    width: 98.8vw; 
+    overflow: hidden; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+  }
+
+
+
+
+  .video-container {
+    position: relative;
+    width: 100%;
+    height: 30rem;
+
+  }
+
+  .product-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 30rem;
+    object-fit: cover; /* Makes sure the video covers the area */
+    z-index: -1;
+  }
+
+  .text-overlay {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the text */
+    text-align: center; /* Center align text horizontally */
+    color: white; /* Ensure the text is visible */
+    z-index: 1; /* Place text above the video */
+}
+
+  .brand-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+.hero-description {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    z-index: 1;
+}
+
+.cta-button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    background-color: #F96E2A;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    z-index: 1;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #e56700;
+}
+
+
+
+  
+  
+
+
+
+.footer {
+  background-color: #f4f4f4; /* Light gray background */
+  color: #333; /* Dark text color */
+  text-align: center; /* Center-align text */
+  padding: 20px; /* Space around the content */
+  width: 95.77vw;
+}
+
+.footer-bottom p {
+  margin: 0; /* Remove default margin */
+  font-size: 14px; /* Small text */
+  color: #666; /* Slightly lighter text color */
+}
+
+
+
+
+
+
+
+
+
+.why-choose-BSUVL-gallery{
+  height: 320px;
+  background-color: #FBF8EF;
+}
+
+
+/* CSS for the "Why Choose Blanco Suave UV Lotion?" Section */
+
+/* Overall styling for the gallery */
+.why-choose-BSUVL-gallery {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Title styling */
+.why-choose-BSUVL-title {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* Container for the images and descriptions */
+.why-choose-BSUVL-container {
+  display: inline-block;
+  width: 30%;
+  margin: 0 10px;
+  vertical-align: top;
+}
+
+/* Styling for the images */
+.why-choose-BSUVL-image {
+  width: 180px; /* Set a fixed width */
+  height: 180px; /* Set a fixed height */
+  object-fit: cover; /* Ensures the image fills the area while maintaining aspect ratio */
+  margin-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px; /* Optional rounded corners */
+}
+
+/* Description text styling */
+.why-choose-BSUVL-text {
+  font-size: 1rem;
+  color: #666;
+}
+
+
+
+
+
+
+.customer-reviews-section {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e0e0e0;
+}
+
+.customer-reviews-title {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #444;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 10px;
+}
+
+/* Review Container */
+.review {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 25px;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background: #fdfdfd;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.review:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Review Image */
+.review-image {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+  border: 2px solid #ddd;
+}
+
+/* Review Content */
+.review-content {
+  flex: 1;
+}
+
+.review-text {
+  font-size: 18px;
+  font-style: italic;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.review-author {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+
+
+
+
+.wswu-container{
+  background-color: #333;
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.wswu-profile{
+  position: relative;
+  width: 150px;
+  margin: 0 1em;
+  height: 150px;
+  border-radius: 50%;
+  background: url(../pics/derma.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  box-shadow: 0 0 0 4px #fff, 0 0 0 5px #246df5;
+  transition: 0.2s;
+}
+
+.wswu-profile1{
+  position: relative;
+  width: 150px;
+  margin: 0 1em;
+  height: 150px;
+  border-radius: 50%;
+  background: url(../pics/natural.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  box-shadow: 0 0 0 4px #fff, 0 0 0 5px #246df5;
+  transition: 0.2s;
+}
+
+.wswu-profile2{
+  position: relative;
+  width: 150px;
+  margin: 0 1em;
+  height: 150px;
+  border-radius: 50%;
+  background: url(../pics/uvray.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  box-shadow: 0 0 0 4px #fff, 0 0 0 5px #246df5;
+  transition: 0.2s;
+}
+
+.wswu-profile:hover{
+  box-shadow: 0 0 0 4px #fff, 0 0 0 6px #d10fd8;
+}
+
+.wswu-profile1:hover{
+  box-shadow: 0 0 0 4px #fff, 0 0 0 6px #d10fd8;
+}
+
+.wswu-profile2:hover{
+  box-shadow: 0 0 0 4px #fff, 0 0 0 6px #d10fd8;
+}
+
+.wswu-content{
+  position: absolute;
+  bottom: 75px;
+  padding: 20px;
+  min-width: 400px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: 0.5s;
+}
+
+.wswu-content .wswu-header{
+  display: flex;
+  align-items: center;
+}
+
+.wswu-content .wswu-header img{
+  grid-column: 1/2;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.wswu-content .wswu-header .wswu-infos{
+  margin-left: 1em;
+}
+
+.wswu-content .wswu-body{
+  padding: 1em;
+}
+
+.wswu-content .wswu-body p{
+  font-size: 0.95em;
+  color: #272727;
+}
+
+.wswu-profile:hover .wswu-content{
+  visibility: visible;
+  opacity: 1;
+  transform: translateX(-15%) translateY(0px);
+}
+.wswu-profile1:hover .wswu-content{
+  visibility: visible;
+  opacity: 1;
+  transform: translateX(-15%) translateY(0px);
+}
+
+.wswu-profile2:hover .wswu-content{
+  visibility: visible;
+  opacity: 1;
+  transform: translateX(-15%) translateY(0px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cm-container{
+  max-width: 1170px;
+  margin: auto;
+  padding: 0 15px;
+}
+
+
+.cm-section-header{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.cm-section-header .cm-title{
+  font-size: 35px;
+  font-size: 600;
+  text-transform:capitalize;
+  color: black;
+  line-height: 1.2;
+}
+
+
+.customer-review{
+  padding: 100px 0;
+}
+
+.cm-item{
+  background-color: hsl(0, 5%, 66%);
+  padding: 30px;
+  border-radius: 30px;
+}
+
+.cm-item .cm-info{
+  display: flex;
+  align-items: center;
+}
+
+.cm-item img{
+  max-width: 80px;
+  border-radius: 50%;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+
+.cm-item .cm-name{
+  font-size: 24px;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: black;
+  line-height: 1.2;
+}
+
+.cm-item .cm-place{
+  text-transform: capitalize;
+  color: black;
+}
+
+.cm-item p{
+  margin-top: 20px;
+  color: black;
+}
+
+.cm-item .cm-rating{
+  margin-top: 15px;
+  font-size: 14px;
+  color: gold;
+}
+

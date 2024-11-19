@@ -1,0 +1,174 @@
+.baby-product-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    padding-left: 10px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .baby-product-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    width: 80%;
+    margin-top: 1.5rem;
+  }
+  
+  .baby-product-image {
+    width: 500px;
+    height: 550px;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+
+  }
+  
+  .baby-product-details {
+    max-width: 600px;
+  }
+  
+  .baby-product-details h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .baby-price h2 {
+    margin-top: -1rem;
+    font-size: 1.5rem;
+    color: #28a745;
+  }
+  
+  .baby-product-details p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .baby-product-details h3 {
+    
+    font-size: 1.5rem;
+    color: #333;
+    
+  }
+  
+  .baby-product-details ul {
+    list-style-type: disc;
+    display: contents;
+    color: #555;
+  }
+
+
+  .baby-product-details li {
+    margin-left: 2rem;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .baby-footer {
+    background-color: #f4f4f4; 
+    color: #333; 
+    text-align: center; 
+    padding: 20px;
+    width: 96.5vw;
+    margin-top: 3rem;
+    margin-bottom: -1rem;
+  }
+  
+  .baby-footer-bottom p {
+    margin: 0;
+    font-size: 14px; 
+    color: #666; 
+  }
+
+
+
+
+
+
+
+
+
+  .baby-option {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  gap: 1rem;
+}
+
+.baby-option h3 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.baby-option select {
+  padding: 5px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 10px;
+  height: 30px;
+  width: 30%; /* Ensure inputs are side by side with some margin */
+}
+
+.baby-option2 {
+  display: flex;
+  gap: 1rem;
+}
+
+.baby-option2 h3 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    
+  }
+
+.baby-option2 input {
+    padding: 5px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 15px;
+    height: 20px;
+    width: 30px;
+}
+
+.baby-total-price {
+  margin-left: 7rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #2e8b57;
+}
+
+.baby-checkout-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  width: 100%; /* Makes the button span the full width */
+  max-width: 220px;
+  transition: background-color 0.3s ease;
+  margin-top: 30px;
+  margin-left: 12rem;
+}
+
+.baby-checkout-button:hover {
+  background-color: #45a049;
+}
+  
