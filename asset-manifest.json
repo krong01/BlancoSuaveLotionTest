@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/BlancoSuaveLotionTest/static/css/main.f11979ac.css",
+    "main.js": "/BlancoSuaveLotionTest/static/js/main.2dd98ee2.js",
+    "static/media/vid_for_land.mp4": "/BlancoSuaveLotionTest/static/media/vid_for_land.6e69a7b637c8da3c67d5.mp4",
+    "static/media/derma.png": "/BlancoSuaveLotionTest/static/media/derma.286114c0e3f1e51f05b5.png",
+    "static/media/natural.png": "/BlancoSuaveLotionTest/static/media/natural.dcf25741268ebf59e61b.png",
+    "static/media/fa-solid-900.ttf": "/BlancoSuaveLotionTest/static/media/fa-solid-900.42c745469c29afbc4e98.ttf",
+    "static/media/uvray.png": "/BlancoSuaveLotionTest/static/media/uvray.2b64b050e1ff8b248363.png",
+    "static/media/fa-brands-400.ttf": "/BlancoSuaveLotionTest/static/media/fa-brands-400.4e755efff9e2ad0cc4ce.ttf",
+    "static/media/fa-solid-900.woff2": "/BlancoSuaveLotionTest/static/media/fa-solid-900.a4453cdb966b98ed8801.woff2",
+    "static/media/fa-brands-400.woff2": "/BlancoSuaveLotionTest/static/media/fa-brands-400.265683c169acc4399fe4.woff2",
+    "static/media/fa-regular-400.ttf": "/BlancoSuaveLotionTest/static/media/fa-regular-400.fca1ba8756e66eb24cc3.ttf",
+    "static/media/baby-lo.jpg": "/BlancoSuaveLotionTest/static/media/baby-lo.3b83179a1aedbc6973b8.jpg",
+    "static/media/teen-lo.jpg": "/BlancoSuaveLotionTest/static/media/teen-lo.6442d30b70b9eb4bb14b.jpg",
+    "static/media/adult-lo.jpg": "/BlancoSuaveLotionTest/static/media/adult-lo.0a2da83c5189c7903176.jpg",
+    "static/media/baby.jpg": "/BlancoSuaveLotionTest/static/media/baby.e4304cf301d656e12997.jpg",
+    "static/media/fa-regular-400.woff2": "/BlancoSuaveLotionTest/static/media/fa-regular-400.1bb9d91b4e86ea5158e6.woff2",
+    "static/media/teen.jpg": "/BlancoSuaveLotionTest/static/media/teen.a011ab3e78e347d8d68a.jpg",
+    "static/media/fa-v4compatibility.ttf": "/BlancoSuaveLotionTest/static/media/fa-v4compatibility.c230767394a35143968f.ttf",
+    "static/media/fa-v4compatibility.woff2": "/BlancoSuaveLotionTest/static/media/fa-v4compatibility.eac4dbb6d61d3a73befd.woff2",
+    "index.html": "/BlancoSuaveLotionTest/index.html",
+    "main.f11979ac.css.map": "/BlancoSuaveLotionTest/static/css/main.f11979ac.css.map",
+    "main.2dd98ee2.js.map": "/BlancoSuaveLotionTest/static/js/main.2dd98ee2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f11979ac.css",
+    "static/js/main.2dd98ee2.js"
+  ]
+}
